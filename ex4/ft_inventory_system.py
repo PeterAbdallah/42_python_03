@@ -3,7 +3,7 @@
 import sys
 
 
-def ft_inventory_system():
+def ft_inventory_system() -> None:
     print("=== Inventory System Analysis ===")
 
     inventory = {}

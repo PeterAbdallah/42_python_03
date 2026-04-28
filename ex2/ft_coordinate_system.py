@@ -23,7 +23,7 @@ def get_player_pos() -> tuple:
                 print(e)
 
 
-def ft_coordinate_system():
+def ft_coordinate_system() -> None:
     print("=== Game coordinate System ===")
 
     # Get first tuple

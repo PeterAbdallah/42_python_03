@@ -22,7 +22,7 @@ def consume_event(events: list[tuple[str, str]]) -> typing.Generator[
 
 
 # MAIN PROGRAM
-def ft_data_stream():
+def ft_data_stream() -> None:
     print("=== Game Data Stream Processor ===")
 
     # Generate 1000 events

@@ -3,7 +3,7 @@
 import random
 
 
-def ft_data_alchemist():
+def ft_data_alchemist() -> None:
     print("=== Game Data Alchemist ===")
     players = ["Alice", "bob", "Charlie", "dylan", "Emma",
                "Gregory", "john", "kevin", "Liam"]

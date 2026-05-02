@@ -9,6 +9,7 @@ def ft_score_analytics() -> None:
     if argc < 2:
         print("No scores provided. Usage: python3\
  ft_score_analytics.py <score1> <score2> ...")
+        return
     else:
         scores = []
     for score in sys.argv[1:]:

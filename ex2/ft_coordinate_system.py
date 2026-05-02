@@ -2,7 +2,7 @@
 import math
 
 
-def get_player_pos() -> tuple:
+def get_player_pos() -> tuple[float, float, float]:
     input_message = "Enter new coordinates as floats in format 'x,y,z': "
     while True:
         try:
